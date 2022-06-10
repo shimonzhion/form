@@ -1,0 +1,21 @@
+body{
+    display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+#form{
+    border: 6px solid red;
+   display: flex;
+align-items: center; 
+   flex-direction: column;
+   width: 30vw;
+   height: 80vh;  
+   background-color: yellow;
+}  
+input{
+    text-align: center;
+    font-style: italic;
+}

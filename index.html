@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" onsubmit="return clickSubmit()" >
+        <h1>account creation</h1>
+        <label for="first_name" >enter first name</label>
+        <input id="first_name" type="text" name="first_name" maxlength="10">
+       
+        <label for="last_name" >enter last name</label>
+        <input id="last_name" type="text" name="last_name"  maxlength="10">
+       
+        <label for="Date_of_birth" >enter Date of birth</label>
+        <input id="Date_of_birth" type="date" name="Date_of_birth" >
+       
+        <label for="email" >enter email</label>
+        <input id="email" type="email" name="email" >       
+        <label for="phone" >enter phone number</label>
+        <input id="phone" type="tel" name="phone" maxlength="10">
+       
+        <label for="password" >enter password</label>
+        <input id="password" type="password" name="password" >
+       
+        <label for="Confirm_Password" >Confirm Password</label>
+        <input id="Confirm_Password" type="text" name="Confirm_Password" >
+        <br>
+       <button id="btn_form">submit</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
